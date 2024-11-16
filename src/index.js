@@ -8,6 +8,8 @@ initStorage();
 const nfc = new NFC();
 
 nfc.on("reader", async reader => {
+	console.log(`Detected NFC/smartcard device: ${reader.reader.name}`);
+	
 	reader.on("card", card => {
 		storage.getItem(card.uid).then(data => {
 			if (!data)
