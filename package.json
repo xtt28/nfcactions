@@ -1,0 +1,29 @@
+{
+  "name": "nfcactions",
+  "version": "1.0.0",
+  "description": "Perform actions on your computer with an NFC reader and tag.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtt28/nfcactions.git"
+  },
+  "keywords": [
+    "nfc",
+    "rfid"
+  ],
+  "author": "xtt28",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtt28/nfcactions/issues"
+  },
+  "homepage": "https://github.com/xtt28/nfcactions#readme",
+  "type": "module",
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "nfc-pcsc": "^0.8.1",
+    "node-persist": "^4.0.3"
+  }
+}
