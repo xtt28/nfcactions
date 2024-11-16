@@ -24,6 +24,7 @@
   "dependencies": {
     "@inquirer/prompts": "^7.1.0",
     "nfc-pcsc": "^0.8.1",
-    "node-persist": "^4.0.3"
+    "node-persist": "^4.0.3",
+    "open": "^10.1.0"
   }
 }
