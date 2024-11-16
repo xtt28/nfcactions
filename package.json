@@ -4,7 +4,8 @@
   "description": "Perform actions on your computer with an NFC reader and tag.",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+	"setup": "node ./src/setup.js"
   },
   "repository": {
     "type": "git",
